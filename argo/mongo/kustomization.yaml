@@ -5,9 +5,9 @@ namePrefix: kustomize-
 
 resources:
 - secret.yaml
-- mongodb-deployment.yaml
-- mongodb-service.yaml
-- mongodb-configmap.yaml
+- mongo-deployment.yaml
+- mongo-service.yaml
+- mongo-configmap.yaml
 - mongo-express-deployment.yaml
 - mongo-express-service.yaml
 
